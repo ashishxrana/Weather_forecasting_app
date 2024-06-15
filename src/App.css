@@ -1,0 +1,48 @@
+.header {
+  height: 100vh;
+  background-image: url("../background.jpg");
+  background-size: cover;
+  background-position: 30%;
+}
+
+.header h1 {
+  color: white;
+  font-size: 3.5rem;
+}
+
+.header .search_bar {
+  width: 50vw;
+}
+
+.header .search_bar input {
+  font-size: 2rem;
+  border-radius: 0.2rem;
+}
+
+.search button {
+  font-size: 1.75rem;
+  padding: 0.5rem 2rem;
+  border-radius: 1rem;
+  background: rgba(218, 218, 218, 0.2);
+  color: white;
+  border: thin solid white;
+  font-weight: 500;
+  letter-spacing: 0.08rem;
+}
+
+.your-location button {
+  font-size: 1.75rem;
+  padding: 0.5rem 2rem;
+  border-radius: 1rem;
+  background: rgba(218, 218, 218, 0.9);
+  color: white;
+  border: thin solid white;
+  font-weight: 500;
+  letter-spacing: 0.08rem;
+}
+
+@media (max-width: 850px) {
+  .header .search_bar {
+    width: 70vw;
+  }
+}
